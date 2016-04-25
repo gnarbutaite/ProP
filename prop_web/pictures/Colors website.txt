@@ -1,0 +1,5 @@
+E5E5E5 - pinkywhite 	229 229 229
+	 light grey    229, 232, 223 
+3EE9E9 - blue sky 	62, 233, 233
+3F5B5B - dark green	63, 91, 91
+Index	 oceanic green? 74, 167 , 146

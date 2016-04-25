@@ -1,0 +1,128 @@
+div.contacts{margin-top: 6%; padding-left: 7%;border-bottom-color: white; border-bottom-style: solid; overflow: auto; padding-bottom:5%;}
+
+h2{position: relative; float: left; margin-left: 8%;}
+
+div.email{width: 20%; border-color: black;border-style: solid;margin-left: 5%;background-color: lightpink; float: left;}
+h3.email{background-color: white; text-align: center;}
+p.email{text-align: left; border-style: solid; border-color: black; background-color: lightpink;}
+
+div.Phone{width: 20%; border-color: black;border-style: solid;background-color: lightpink;margin-left: 10%; float: left;}
+h3.phone{background-color: white;text-align: center;}
+p.phone{text-align:left;}
+
+div.Office{width: 20%; border-color: black;border-style: solid; background-color: lightpink;margin-left: 10%;float: left;}
+h3.office{background-color: white; text-align: center;}
+p.office{text-align: left;}
+
+h2{color: white;}
+
+div.about{overflow: auto; border-bottom-style: solid; border-bottom-color: white; padding: 5%;}
+h2.about{text-align: left; color: white;}
+img.mob{width: 50%; height: 20%;position: relative; image-resolution: snap; float: left; padding-left: 8%; padding-right: 4%;text-align: left;}
+p.mob{text-align: justify;float: left;width: 30%; font-family: cursive; font-size: 12pt; color:white;}
+
+div.map{border-bottom-color: white; border-bottom-style: solid; overflow: auto;padding: 5%;}
+img.map{width: 79%; float: left; padding-left: 11%;}
+
+div.rules{border-bottom-color: white; border-bottom-style: solid; overflow: auto;padding: 5%;}
+h2.rules{text-align: left; color: white; padding-left: 40%;}
+p.rules{text-align: justify;float: left;width: 60%; font-family: cursive; font-size: 12pt; color:white; padding-left: 40%;}
+
+div.sponsors{border-bottom-color: white; border-bottom-style: solid; overflow: auto; padding-bottom: 5%;padding-top: 5%; padding-left: 4%;}
+img.sponsors{ width: 150px; height: 50px; float: left; object-position: center; margin-left: 2%;  }
+
+div.types{width: 100%; margin-top: 5%;}
+
+h2.tickets{margin-left: 22%;}
+
+
+
+button.button1 {position: relative;background-color: aqua; border-color: white; border-style: solid;font-size: 28px; color:black; padding-bottom: 35px; width: 10%;text-align:left;  transition-duration: 0.4s; text-decoration: none; overflow: hidden; cursor: pointer; border: 1%; margin-left: 14%;}
+button.button1:after {content: "";background: #90EE90;display: block; position:absolute;  padding-top: 300%; padding-left: 350%;margin-left: -20px!important; margin-top: -120%;opacity: 0;transition: all 0.8s}
+button.button1:active:after { padding: 0; margin: 0;opacity: 1;transition: 0s}
+
+
+button {position: relative;background-color: aqua; border-color: white; border-style: solid;font-size: 28px; color: black; padding-bottom: 35px; width: 10%;text-align:left;    transition-duration: 0.4s; text-decoration: none; overflow: hidden; cursor: pointer; border: 1%;}
+button:after {content: "";background: #90EE90;display: block; position:absolute;  padding-top: 300%; padding-left: 350%;margin-left: -20px!important; margin-top: -120%;opacity: 0;transition: all 0.8s}
+button:active:after { padding: 0; margin: 0;opacity: 1;transition: 0s}
+
+button.button3 {position: inherit;background-color: rgb(63, 91, 91); border-color: #3f5b5b; border-style: solid;font-size: 14px; color:#3f5b5b; padding-bottom: 11%; width: 5%;text-align:left;    transition-duration: 0.4s; text-decoration: none; overflow: hidden; cursor: pointer;}
+button.button3:after {content: "";background: rgb(63, 91, 91);display:inherit; position:relative;  padding-top: 30%; padding-left: 30%;margin-left: -20px!important; margin-top: -120%;opacity: 0;transition: all 0.8s}
+button.button3:active:after { padding: 0; margin: 0;opacity: 1;transition: 0s}
+
+button.button4 { position: relative; background-color: aqua; border-color: white; border-style: solid;font-size: 28px;color: black;padding: 20px; width: 200px;text-align: center;transition-duration: 0.4s;text-decoration: none;overflow: hidden;cursor: pointer; margin-left: 44%;}
+button.button4:after { content: "";background: #90EE90;display: block; position: absolute;padding-top: 300%; padding-left: 350%;margin-left: -20px!important; margin-top: -120%;opacity: 0;transition: all 0.8s}
+button.button4:active:after { padding: 0; margin: 0;opacity: 1;transition: 0s}
+
+
+
+
+
+div.news
+{   margin-left: 13%;
+    margin-top: 5%;
+    height: 50%;
+    width: 15%;
+    border-style:solid;
+    border-color: rgb(255,255,255);
+    border-width: 6px;
+    float: left;
+}
+
+div.newsheader
+{background: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    height: 12.5%;
+    line-height: 3.3em;
+}
+
+div.newscontent
+{padding:5% 10%;
+    color: rgb(255,255,255);
+    font-size: 16pt;
+    line-height: 1.3em;
+}
+
+div.newsmore
+{
+width: 100%;
+    height: 7%;
+
+   padding-top: 4%;
+    
+}
+
+h1{font-size: 20pt;}
+button.newsmore{width: 8%; height: 50%; position: relative; float: right; font-size: 14pt;padding-top: 10px; margin-right: 13.8%;margin-top: 0.5%;text-align: center;}
+button.newsmores{width: 8%; height: 50%; position: relative; float: left; font-size: 14pt;padding-top: 10px; margin-left:20.7%;margin-top: 0.5%;text-align: center;}
+button.newsmoreses{width: 8%; height: 50%; position: relative; float: left; font-size: 14pt;padding-top: 10px; margin-left: 18.7%;margin-top: 0.5%;text-align: center;}
+
+
+
+body.register{background-image: url("bmth.gif"); background-size:cover; background-repeat: no-repeat;}
+
+
+form.register{ background-color: darkcyan; color: white; width: 20%; position: relative; object-position: center; top: 20%; left: 36%; padding: 5%; font-size: 14pt;}
+
+
+h2.register{left: 25%;}
+
+
+input.registration{width: 100px; height: 50px; background-color: aqua; font-size: 16pt; float: right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

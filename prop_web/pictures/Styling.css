@@ -1,0 +1,252 @@
+*
+{
+       margin: 0px;
+    padding: 0%;
+}
+
+html
+{
+  width: 100%; height: 100%; overflow-x: auto; background-color:	rgb(63, 91, 91); 
+}
+
+body
+{
+    width: 100%; height: 100%;
+}
+
+div#top
+{
+   width: 100%;
+    height: 11.3%;
+}
+
+div#menu
+{
+height: 5.5%;    
+}
+
+ul#menu
+{  
+    height: 100%;
+    width: 50%;
+    float: left;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(62, 233, 233);
+    border-left: none;
+    border-right: none;
+}
+
+ul#menu li
+{   
+
+    display: inline-block;
+   
+  height: 100%;
+    width: 26%;;
+    float: left;
+       padding-left: 1%;
+    padding-right: 1%;
+ 
+
+    
+}
+
+
+ul#menu li a
+{  height: 100%;
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(229, 229, 229);
+    text-align: center;
+    overflow: hidden;
+    line-height: 2em;
+    font-size: 1.5em;
+    
+    
+   
+}
+
+
+ul#menu li a:hover
+{ 
+    
+    
+    
+    background-color: black;
+}
+
+img.left
+{   float: left;
+    height: 70%;
+    width: 0.7%;
+    margin-top: 0.85%;
+    margin-bottom: 1.3%;
+}
+
+img#button
+{
+    position: absolute;
+    height: 14%;
+    top:7%;
+    width: 15%;
+    
+    z-index: 1;
+       left: 40%;
+    
+    
+}
+
+ul#menu2
+{  
+    height: 100%;
+    width: 50%;
+    float: right;
+        border-style:solid;
+    border-width:   4px;
+    border-color: rgb(62, 233, 233);
+    border-right: none;
+    border-left: none;
+    
+}
+
+ul#menu2 li
+{   
+
+    display: inline-block;
+   
+height: 100%;
+    width: 29%;
+    float: right;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+ul#menu2 li#news
+{
+    
+}
+
+ul#menu2 li a
+{  height: 100%;
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(229, 229, 229);
+    text-align: center;
+    overflow: hidden;
+    line-height: 2em;
+    font-size: 1.5em;
+   
+
+    
+}
+
+ul#menu2 li a:hover
+{ 
+    
+    
+    
+    background-color: black;
+}
+
+img.right
+{
+    float: right;
+    height: 70%;
+    width: 0.7%;
+    margin-top: 0.85%;
+    margin-bottom: 1.3%;
+}
+
+div.artist
+{   margin-left: 7.5%;
+    margin-top: 5%;
+    height: 50%;
+    width: 15%;
+    border-style:solid;
+    border-color: rgb(255,255,255);
+    border-width: 6px;
+    float: left;
+}
+
+div.artistheader
+{background: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    height: 12.5%;
+    line-height: 3.3em
+}
+
+div.artistcontent
+{padding:5% 10%;
+    color: rgb(255,255,255);
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+div.artistmore
+{
+width: 45%;
+    height: 10%;
+float: right;
+    margin-top: 1%;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+
+div.footer{position: relative; object-position: bottom; height: 10%;}
+img#tickets{position: absolute;height: 7.5%;width:68.5%;left: 15.75%;top: 92.5%;}
+img#ticketsl{position: absolute; height: 100%; width: 68.5%; left: 15.75%;}
+
+
+button.artistmore{width: 100%; height: 100%;}
+
+
+
+
+
+div.index{ height: 63%; margin-top: 0%;}
+
+
+div.footers{object-position: bottom; align-content: center; align-items: center; position: relative; height: 20%; background-color:dimgrey;}
+img.footers{width: 5%; height:64px;margin-top: 4%; margin-left: 1%; }
+img.footerss{width: 5%; height:64px;margin-top: 4%; margin-left: 40%; }
+
+
+
+img.ppl{width: 32px; height: 46px;}
+div.ppls{position: relative; width: 13%; height: 20%; top: 65%; left: 13%;}
+
+
+img.ppl:hover{
+-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;
+}
+img.ppl:hover .ppl {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
